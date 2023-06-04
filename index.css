@@ -1,0 +1,92 @@
+body{
+    position: relative;
+    padding-bottom: 4rem;
+    min-height: 100vh;
+   
+}
+
+#herotext{
+    text-align: center;
+    margin-top: 4rem;
+}
+#herotext2{
+    text-align: center;
+    margin-top: 1.2rem;
+    margin-bottom: 2.5em;
+}
+
+#flex-contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+}
+
+.tabell1{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.tabell1 thead tr {
+    background-color: #003366;
+    color: aliceblue;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tabell1 th,
+
+.tabell1 td{
+
+    padding: 12px 15px;
+}
+
+.tabell1 tbody tr{
+    border-bottom: 1px solid rgb(215, 210, 210);
+}
+
+.tabell1 tbody tr:nth-of-type(even){
+
+    background-color: #f3f3f3;
+
+}
+
+.tabell1 tbody tr:last-of-type{
+    border-bottom: 2px solid #003366;
+}
+
+#flex-tabell{
+    display: flex;
+    justify-content: center;
+    margin: 0 2em 0 2em;
+}
+
+
+#forms{
+    margin-top: 3rem;
+    align-items: center;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 4rem;
+    width: 100%;    
+    background-color:black;
+    color: azure;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+
+

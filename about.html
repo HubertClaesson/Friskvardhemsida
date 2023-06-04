@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="about.css" />
+    <title>Om oss</title>
+  </head>
+  <body>
+    <!-- Navbar från bootstrap börjar här-->
+    <nav class="navbar navbar-expand-lg bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Friskvård.se</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >Om oss</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 id="herotext">Vi främjar för god hälsa</h1>
+    <!--Grid-container börjar här-->
+    <div class="grid-container">
+      <!--Ruta ett i grid - container börjar här-->
+      <div id="text1">
+        <h2>Om oss</h2>
+        <p>
+          <!--Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur-->
+          Vi är hemsidan som hjälper dig hitta rätt aktvitet för din friskvård.
+        </p>
+      </div>
+      <!--Ruta två i grid-container börjar här  -->
+      <div id="ruta2"></div>
+    </div>
+    <!--Här börjar hero-text2-->
+    <h3 id="hero-text2">
+      Använd vår motions generator för att slumpa fram en aktivitet
+    </h3>
+    <!--Knapp börjar här-->
+    <div id="flex-contain">
+      <input id="send" type="button" value="Hitta en aktivitet" />
+    </div>
+    <!--Tabell med aktviteter börjar här-->
+    <div id="flex-tabell">
+      <table class="tabell1">
+        <thead id="rensa">
+          <tr>
+            <th>Aktivitet</th>
+            <th>Stödjer</th>
+          </tr>
+        </thead>
+        <tbody id="tabell2">
+          <tr>
+            <td id="aktvitetR"></td>
+            <td id="stoderR"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Här är rubriken för grafen-->
+    <div id="flex-hero3">
+      <h4 id="hero-text3">
+        Hur många av aktviteterna man får firskvård för
+        <!--Antalet godkända vs inte godkända aktiviteter för friskvårdsbidrag-->
+      </h4>
+    </div>
+    <div id="flex-graf">
+      <!--Här ligger grafen-->
+      <div class="flex-graf2">
+        <canvas id="min-graf"></canvas>
+      </div>
+    </div>
+    <!--Footer börjar här-->
+    <footer id="footer"></footer>
+    <!--chart.js javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!--Bootsrtap javascript-länk-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- index.js länk-->
+    <script src="about.js"></script>
+  </body>
+</html>
